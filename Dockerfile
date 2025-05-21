@@ -1,4 +1,4 @@
-FROM python:3.10-alphine
+FROM python:3.10-alpine
 WORKDIR /code
 COPY . /code/
 RUN pip instasll -r requirements.txt
